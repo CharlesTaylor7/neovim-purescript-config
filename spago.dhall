@@ -1,6 +1,11 @@
 { name = "neovim-purescript-config"
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
-, backend = "pslua --lua-output-file $HOME/.config/nvim/lua/purs.lua"
+, backend = " echo "
+{-
+  ""
+    pslua --lua-output-file $HOME/.config/nvim/lua/purs.lua
+  ""
+-}
 , dependencies =
     [ "prelude"
     , "effect"
